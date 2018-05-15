@@ -1,0 +1,56 @@
+{
+ "name": "NatureRainbow-Theme",
+ "displayName": "Nature Rainbow Theme",
+ "description": "A UI and syntax theme for VSCode based on the rainbow colors.",
+ "version": "0.1.4",
+ "publisher": "fthiagogv",
+ "bugs": {
+  "url": "https://github.com/fthiagogv/NatureRainbow-Theme-vscode"
+ },
+ "homepage": "https://github.com/fthiagogv/NatureRainbow-Theme-vscode",
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/fthiagogv/NatureRainbow-Theme-vscode"
+ },
+ "engines": {
+  "vscode": "^1.12.0"
+ },
+ "categories": [
+  "Themes"
+ ],
+ "contributes": {
+  "themes": [
+   {
+    "label": "Nature Dark+",
+    "uiTheme": "vs-dark",
+    "path": "./themes/Nature-dark.json"
+   },
+   {
+    "label": "Nature Rainbow Dark",
+    "uiTheme": "vs-dark",
+    "path": "./themes/NatureRainbow-dark.json"
+   },
+   {
+    "label": "Nature Rainbow Light",
+    "uiTheme": "vs",
+    "path": "./themes/NatureRainbow-light.json"
+   }
+  ]
+ },
+ "icon": "icon.png",
+ "keywords": [
+  "nature",
+  "rainbow",
+  "theme",
+  "dark",
+  "light"
+ ],
+ "devDependencies": {
+  "docsify-cli": "^3.3.2"
+ },
+ "__metadata": {
+  "id": "337a3066-a14c-461f-a61a-599da1d38612",
+  "publisherId": "fthiagogv.NatureRainbow-Theme",
+  "publisherDisplayName": "fthiagogv"
+ }
+}
