@@ -1,14 +1,16 @@
-# Nature Rainbow Theme
+# Nature Theme
 
-This is a theme using rainbow colors.
+This is a theme using nature colors.
 
 **I hope that you enjoy it!**
 
-*I will update some colors according the usage.*
+*I will update some colors according my usage. If you have some issue, please, create one.*
 
-[GitHub repository](https://github.com/fthiagogv/NatureRainbow-Theme-vscode)
+[GitHub repository](https://github.com/vfthiagogomes/nature-theme-vscode.git)
 
-![dark](https://user-images.githubusercontent.com/6399202/31101920-3297971c-a7a6-11e7-9dd3-51a65ea112cd.png)
+![Nature Dark](https://user-images.githubusercontent.com/6399202/41370834-10ba1e1c-6f1f-11e8-8f9e-3291ffde70c4.png)
 
-![light](https://user-images.githubusercontent.com/6399202/31101921-329eca1e-a7a6-11e7-8b51-29cc26974f7c.png)
+![Nature Rainbow dark](https://user-images.githubusercontent.com/6399202/31101920-3297971c-a7a6-11e7-9dd3-51a65ea112cd.png)
+
+![Nature Rainbow light](https://user-images.githubusercontent.com/6399202/31101921-329eca1e-a7a6-11e7-8b51-29cc26974f7c.png)
 
