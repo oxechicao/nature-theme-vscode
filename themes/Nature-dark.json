@@ -192,7 +192,7 @@
       "name": "Yellow Color",
       "scope": "support.type.map.key.scss,keyword.operator.expression.import,support.module.node,support.module.node,keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.ternary,storage.type.annotation.java,meta.method.java,storage.modifier.import.java,storage.type.java,import.storage.java,keyword.operator.sizeof.c,meta.function-call.generic.python,control.elements,keyword.operator.less,storage,token.storage.type.java,entity.other.attribute-name.class.css,keyword.other.unit,punctuation.definition.bold,entity.name.section.markdown,punctuation.definition.heading.markdown,punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.metadata.markdown,punctuation.definition.metadata.markdown,markup.underline.link.markdown,markup.underline.link.image.markdown,var.this,function.parameter.ruby,function.parameter.cs,function.parameter,function.parameter,keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php",
       "settings": {
-        "foreground": "#f2f28c"
+        "foreground": "#c6c661"
       }
     },
     {
