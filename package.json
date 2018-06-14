@@ -1,0 +1,61 @@
+{
+	"name": "nature-syntax-theme",
+	"displayName": "Nature Syntax Theme",
+	"description": "A UI and syntax theme for VSCode based on the nature colors.",
+	"version": "1.2.1",
+	"publisher": "vfthiagogomes",
+	"bugs": {
+		"url": "https://github.com/vfthiagogomes/nature-theme-vscode.git"
+	},
+	"homepage": "https://github.com/vfthiagogomes/nature-theme-vscode.git",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vfthiagogomes/nature-theme-vscode.git"
+	},
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Nature Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Nature-dark.json"
+			},
+			{
+				"label": "Nature Light",
+				"uiTheme": "vs",
+				"path": "./themes/Nature-light.json"
+			},
+			{
+				"label": "Nature Rainbow Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/NatureRainbow-dark.json"
+			},
+			{
+				"label": "Nature Rainbow Light",
+				"uiTheme": "vs",
+				"path": "./themes/NatureRainbow-light.json"
+			}
+		]
+	},
+	"icon": "icon.png",
+	"keywords": [
+		"nature",
+		"rainbow",
+		"theme",
+		"dark",
+		"light"
+	],
+	"devDependencies": {
+		"docsify-cli": "^3.3.2"
+	},
+	"__metadata": {
+		"id": "ee6604d7-3864-4ea7-8a94-3010fb789029",
+		"publisherId": "f4ddb190-f86b-4ee2-85e9-001d380b0b15",
+		"publisherDisplayName": "Thiago Gomes"
+	}
+}
