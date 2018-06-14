@@ -12,37 +12,41 @@
     "panel.border": "#ff9900",
     "panelTitle.activeBorder": "#ff9900",
 
-    "activityBar.background": "#f2e6bf",
-    "statusBar.background": "#f2e6bf",
-    "editorGroupHeader.tabsBackground": "#f2e6bf",
+    "activityBar.background": "#edd6c0",
+    "statusBar.background": "#edd6c0",
+    "editorGroupHeader.tabsBackground": "#edd6c0",
     
-    "panel.background": "#f7f7d4",
+    "sideBar.background": "#f7ecc8",
+    "editorSuggestWidget.background": "#f7ecc8",
+    "editorWidget.background": "#f7ecc8",
+    
+    "panel.background": "#f9f0d4",
+    
     "editor.background": "#f7f7d4",
-    
-    "sideBar.background": "#edd6c0",
-    "editorSuggestWidget.background": "#edd6c0",
+    "editor.foreground": "#282800",
 
     "activityBar.foreground": "#ad5600",
     "statusBar.foreground": "#ad5600",
 
+    "selection.background": "#ffaa0033",
+
     "foreground": "#1b1b1b",
-    "selection.background": "#8800cc33",
     "widget.shadow": "#ffaa00",
     "errorForeground": "#e05252",
     "progressBar.background": "#cccc00",
 
     "activityBarBadge.background": "#ff0000aa",
-    "badge.background": "#ff0000",
+    "badge.background": "#ff000088",
     "activityBarBadge.foreground": "#fff",
 
-    "statusBarItem.hoverBackground": "#ff00ff55",
+    "statusBarItem.hoverBackground": "#ff00ff22",
     "statusBar.noFolderBackground": "#eee",
     "statusBar.debuggingBackground": "#fff",
 
-    "sideBarSectionHeader.background": "#8800cc55",
+    "sideBarSectionHeader.background": "#ffaa0055",
     "sideBarSectionHeader.foreground": "#1b1b1b",
 
-    "button.background": "#8800ccaa",
+    "button.background": "#ffaa00aa",
     "button.hoverBackground": "#00ccccaa",
     "button.foreground": "#1b1b1b",
 
@@ -59,10 +63,10 @@
     "list.focusForeground": "#1b1b1b",
 
     "editor.actions": "#44cc00",
-    "editor.lineHighlightBackground": "#e5d5d5",
+    "editor.lineHighlightBackground": "#e5d5d588",
 
-    "tab.inactiveBackground": "#f9e08bcc",
-    "tab.activeBackground": "#f9e08b",
+    "tab.inactiveBackground": "#f7f6b7aa", 
+    "tab.activeBackground": "#f7f6b7",
     "tab.inactiveForeground": "#888",
     "tab.activeForeground": "#000",
 
@@ -83,27 +87,24 @@
 
     "editorMarkerNavigation.background": "#44cc0055",
 
-    "editorRuler.foreground": "#1b1b1b33",
     "editorCursor.foreground": "#f0f",
+    "editorRuler.foreground": "#1b1b1b33",
     "editorWhitespace.foreground": "#1b1b1b33",
     "editorIndentGuide.background": "#1b1b1b33",
     "editorLineNumber.foreground": "#1b1b1b33",
 
-    "editor.selectionBackground": "#8800cc22",
-    "editor.selectionHighlightBackground": "#8800cc22",
+    "editor.selectionBackground": "#e5d5d5aa",
+    "editor.selectionHighlightBackground": "#e5d5d5aa",
 
     "editor.findMatchBackground": "#d6d65c55",
     "editor.findMatchHighlightBackground": "#3399ff55",
-    "editor.findRangeHighlightBackground": "#e0525255",
-
     "editor.hoverHighlightBackground": "#3399ff33",
 
-    "editor.wordHighlightBackground": "#5cd69955",
+    "editor.findRangeHighlightBackground": "#e0525255",
     "editor.wordHighlightStrongBackground": "#e0525255",
-
+    "editor.wordHighlightBackground": "#5cd69955",
     "editorGroup.background": "#0066cc",
     
-    "editorWidget.background": "#f2f2f2",
     "editorWidget.foreground": "#1b1b1b",
 
     "editorHoverWidget.background": "#ededed",
@@ -124,7 +125,7 @@
 
     "notification.foreground": "#1b1b1b",
     "notification.background": "#efefef",
-    "notification.buttonBackground": "#8800cc88",
+    "notification.buttonBackground": "#ffaa0088",
     "notification.buttonHoverBackground": "#00ccccaa",
     "notification.buttonForeground": "#1b1b1b",
     "notification.infoBackground": "#3399ffaa",
@@ -190,14 +191,14 @@
     },
     {
       "name": "Red Collor",
-      "scope": "meta.function.c,support.type.object.console,support.variable.dom,support.variable.property.dom,source.java,meta.definition.variable.name.java,meta.function-call.arguments.python,meta.function-call.python,keyword.operator,entity.name.type,keyword.operator.comparison.php,keyword.operator.regexp.php",
+      "scope": "support.type.object.console,support.variable.dom,support.variable.property.dom,source.java,meta.definition.variable.name.java,meta.function-call.arguments.python,meta.function-call.python,keyword.operator,entity.name.type,keyword.operator.comparison.php,keyword.operator.regexp.php",
       "settings": {
         "foreground": "#933"
       }
     },
     {
       "name": "Orange Color",
-      "scope": "entity.name.function,support.function.console,support.constant.property-value.scss,support.constant.property-value.css,support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss,support.constant.color.w3c-standard-color-name.css,support.token.decorator.python,meta.function.decorator.identifier.python,entity.name.function, meta.require, support.function.any-method,keyword.other.special-method,support.constant.font-name,entity.other.attribute-name.id,source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json",
+      "scope": "support.function.console,support.constant.property-value.scss,support.constant.property-value.css,support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss,support.constant.color.w3c-standard-color-name.css,support.token.decorator.python,meta.function.decorator.identifier.python, meta.require, support.function.any-method,keyword.other.special-method,support.constant.font-name,entity.other.attribute-name.id,source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json",
       "settings": {
         "foreground": "#963"
       }
@@ -206,7 +207,7 @@
       "name": "Yellow Color",
       "scope": "support.type.map.key.scss,keyword.operator.expression.import,support.module.node,support.type.object.module,support.module.node,keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.ternary,storage.type.annotation.java,meta.method.java,storage.modifier.import.java,storage.type.java,import.storage.java,keyword.operator.sizeof.c,meta.function-call.generic.python,keyword,control.elements,keyword.operator.less,storage,token.storage.type.java,entity.other.attribute-name.class.css,keyword.other.unit,punctuation.definition.bold,entity.name.section.markdown,punctuation.definition.heading.markdown,punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.metadata.markdown,punctuation.definition.metadata.markdown,markup.underline.link.markdown,markup.underline.link.image.markdown,var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx,function.parameter.ruby,function.parameter.cs,function.parameter,function.parameter,keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php",
       "settings": {
-        "foreground": "#993"
+        "foreground": "#969600"
       }
     },
     {
@@ -245,22 +246,15 @@
       }
     },
     {
-      "name": "Gray 2 Color",
-      "scope": "text.xml,block.scope.end,block.scope.begin,comment,punctuation.definition.comment,comment,comment markup.link",
-      "settings": {
-        "foreground": "#1a1a1acc"
-      }
-    },
-    {
       "name": "Foreground similar color",
       "scope": "text.html.vue-html,punctuation.definition.class.begin.bracket.curly.php,punctuation.definition.class.end.bracket.curly.php,meta.directive.vue,punctuation.definition.map.begin.bracket.round.scss,punctuation.definition.map.end.bracket.round.scss,punctuation.separator.key-value.scss,meta.objectliteral.js,meta.structure.dictionary.json,text.html.php.laravel-blade,function.brace,punctuation.section.block.begin.bracket.curly.cpp,punctuation.section.block.end.bracket.curly.cpp,punctuation.terminator.statement.c,punctuation.section.block.begin.bracket.curly.c,punctuation.section.block.end.bracket.curly.c,punctuation.section.parens.begin.bracket.round.c,punctuation.section.parens.end.bracket.round.c,punctuation.section.parameters.begin.bracket.round.c,punctuation.section.parameters.end.bracket.round.c,meta.object-literal.key,punctuation.definition.parameters.begin.bracket.round.php,punctuation.definition.parameters.end.bracket.round.php,punctuation.separator.delimiter.php,punctuation.section.scope.begin.php,punctuation.section.scope.end.php,punctuation.terminator.expression.php,punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php,punctuation.definition.storage-type.end.bracket.round.php,punctuation.definition.array.begin.bracket.round.php,punctuation.definition.array.end.bracket.round.php,punctuation.definition.begin.bracket.round.php,punctuation.definition.end.bracket.round.php,punctuation.definition.begin.bracket.curly.php,punctuation.definition.end.bracket.curly.php,meta.method-call.php",
       "settings": {
-        "foreground": "#1a1a1a"
+        "foreground": "#444"
       }
     },
     {
-      "name": "js ts this",
-      "scope": "comment,punctuation.definition.comment,comment,comment markup.link,entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super,var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx",
+      "name": "js ts this self",
+      "scope": "variable.language.special.self.python,comment.line.number-sign.python,comment,punctuation.definition.comment,comment,comment markup.link,entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super,var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx,meta.function-call",
       "settings": {
         "fontStyle": "italic"
       }
@@ -278,12 +272,12 @@
       "name": "String default",
       "scope": "string",
       "settings": {
-        "foreground": "#238c56"
+        "foreground": "#6ca83a"
       }
     },
     {
       "name": "Function name / Methods name",
-      "scope": "meta.function.c,entity.name.function,entity.name.function.js,support.function",
+      "scope": "entity.name.function,meta.function,meta.function.python,meta.function.c,support.function,meta.function-call.generic.python",
       "settings": {
         "foreground": "#ba2a71"
       }
@@ -334,7 +328,7 @@
       "name": "Keywords",
       "scope": "keyword.control,keyword.control.cpp,variable.language.this.js",
       "settings": {
-        "foreground": "#38a079"
+        "foreground": "#00af6d"
       }
     },
     {
@@ -349,6 +343,34 @@
       "scope": "punctuation, punctuation.definition.block,punctuation.separator.key-value, meta.brace",
       "settings": {
         "foreground": "#ff7f00"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": "comment,block.scope.end,block.scope.begin,punctuation.definition.comment,comment markup.link",
+      "settings": {
+        "foreground": "#aaa"
+      }
+    },
+    {
+      "name": "Imports",
+      "scope": "keyword.control.import.python",
+      "settings": {
+        "foreground": "#3764e8"
+      }
+    },
+    {
+      "name": "From",
+      "scope": "keyword.control.flow.python",
+      "settings": {
+        "foreground": "#29b21c"
+      }
+    },
+    {
+      "name": "Self this",
+      "scope": "variable.language.special.self.python",
+      "settings": {
+        "foreground": "#ed78e8"
       }
     }
   ]

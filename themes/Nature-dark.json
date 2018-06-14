@@ -250,7 +250,7 @@
     },
     {
       "name": "Italic words: js ts this",
-      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super,var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx",
+      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super,var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx,variable.language.special.self.python,meta.function-call",
       "settings": {
         "fontStyle": "italic"
       }
@@ -273,7 +273,7 @@
     },
     {
       "name": "Function name / Methods name",
-      "scope": "meta.function.c,entity.name.function,entity.name.function.js,support.function",
+      "scope": "meta.function.c,entity.name.function,entity.name.function.js,support.function,meta.function-call.generic.python",
       "settings": {
         "foreground": "#e6a1c3"
       }
@@ -339,6 +339,34 @@
       "scope": "punctuation, punctuation.definition.block,punctuation.separator.key-value, meta.brace",
       "settings": {
         "foreground": "#ffa64d"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": "comment,block.scope.end,block.scope.begin,punctuation.definition.comment,comment markup.link",
+      "settings": {
+        "foreground": "#666"
+      }
+    },
+    {
+      "name": "Imports",
+      "scope": "keyword.control.import.python",
+      "settings": {
+        "foreground": "#8ba6f4"
+      }
+    },
+    {
+      "name": "From",
+      "scope": "keyword.control.flow.python",
+      "settings": {
+        "foreground": "#91d68b"
+      }
+    },
+    {
+      "name": "Self this",
+      "scope": "variable.language.special.self.python",
+      "settings": {
+        "foreground": "#d69cd3"
       }
     }
   ]
