@@ -379,6 +379,13 @@
       "settings": {
         "foreground": "#ff4cf7"
       }
+    },
+    {
+      "name": "Others alias",
+      "scope": "entity.other.alias.php",
+      "settings": {
+        "foreground": "#0f990f"
+      }
     }
   ]
 }
