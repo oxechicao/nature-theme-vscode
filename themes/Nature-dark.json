@@ -310,7 +310,7 @@
       "name": "Variable",
       "scope": "variable, support.type.object.module",
       "settings": {
-        "foreground": "#e6daa1"
+        "foreground": "#6295c1"
       }
     },
     {
