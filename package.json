@@ -2,7 +2,7 @@
 	"name": "nature-syntax-theme",
 	"displayName": "Nature Syntax Theme",
 	"description": "A UI and syntax theme for VSCode based on the nature colors.",
-	"version": "1.2.3",
+	"version": "1.2.4",
 	"publisher": "vfthiagogomes",
 	"bugs": {
 		"url": "https://github.com/vfthiagogomes/nature-theme-vscode.git"
