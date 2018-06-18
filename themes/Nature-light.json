@@ -254,7 +254,7 @@
     },
     {
       "name": "js ts this self",
-      "scope": "variable.language.special.self.python,comment.line.number-sign.python,comment,punctuation.definition.comment,comment,comment markup.link,entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super,var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx,meta.function-call",
+      "scope": "variable.language.special.self.python,comment.line.number-sign.python,comment,punctuation.definition.comment,comment,comment markup.link,entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super,var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx",
       "settings": {
         "fontStyle": "italic"
       }
@@ -353,8 +353,15 @@
       }
     },
     {
+      "name": "Modifier visibility (private, public)",
+      "scope": "storage.modifier",
+      "settings": {
+        "foreground": "#d19617"
+      }
+    },
+    {
       "name": "Imports",
-      "scope": "keyword.control.import.python",
+      "scope": "keyword.other.namespace.php,keyword.other.use.php,keyword.control.import.python",
       "settings": {
         "foreground": "#3764e8"
       }

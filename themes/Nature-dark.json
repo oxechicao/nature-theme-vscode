@@ -182,7 +182,7 @@
       "name": "Red Collor",
       "scope": "support.type.object.console, source.java,meta.definition.variable.name.java, meta.function-call.arguments.python,meta.function-call.python,entity.name.type",
       "settings": {
-        "foreground": "#F28C8C"
+        "foreground": "#f78f8f"
       }
     },
     {
@@ -196,7 +196,7 @@
       "name": "Yellow Color",
       "scope": "support.type.map.key.scss,support.module.node,support.module.node,storage.type.annotation.java,meta.method.java,storage.modifier.import.java,storage.type.java,import.storage.java,meta.function-call.generic.python,control.elements,storage,token.storage.type.java,entity.other.attribute-name.class.css,keyword.other.unit,punctuation.definition.bold,entity.name.section.markdown,punctuation.definition.heading.markdown,punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.metadata.markdown,punctuation.definition.metadata.markdown,markup.underline.link.markdown,markup.underline.link.image.markdown,var.this,function.parameter.ruby,function.parameter.cs,function.parameter,function.parameter",
       "settings": {
-        "foreground": "#c6c661"
+        "foreground": "#efef88"
       }
     },
     {
@@ -250,7 +250,7 @@
     },
     {
       "name": "Italic words: js ts this",
-      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super,var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx,variable.language.special.self.python,meta.function-call",
+      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super,var.this,variable.language.this.js,variable.language.this.ts,variable.language.this.jsx,variable.language.this.tsx,variable.language.special.self.python",
       "settings": {
         "fontStyle": "italic"
       }
@@ -310,7 +310,7 @@
       "name": "Variable",
       "scope": "variable, support.type.object.module",
       "settings": {
-        "foreground": "#6295c1"
+        "foreground": "#8dc3ef"
       }
     },
     {
@@ -349,8 +349,15 @@
       }
     },
     {
+      "name": "Modifier visibility (private, public)",
+      "scope": "storage.modifier",
+      "settings": {
+        "foreground": "#dbb155"
+      }
+    },
+    {
       "name": "Imports",
-      "scope": "keyword.control.import.python",
+      "scope": "keyword.other.namespace.php,keyword.other.use.php,keyword.control.import.python",
       "settings": {
         "foreground": "#8ba6f4"
       }
