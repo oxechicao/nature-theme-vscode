@@ -89,9 +89,9 @@
 
     "editorCursor.foreground": "#f0f",
     "editorRuler.foreground": "#1b1b1b33",
-    "editorWhitespace.foreground": "#1b1b1b33",
+    "editorWhitespace.foreground": "#1b1b1b22",
     "editorIndentGuide.background": "#1b1b1b33",
-    "editorLineNumber.foreground": "#1b1b1b33",
+    "editorLineNumber.foreground": "#1b1b1b55",
 
     "editor.selectionBackground": "#e5d5d5aa",
     "editor.selectionHighlightBackground": "#e5d5d5aa",
@@ -321,7 +321,7 @@
       "name": "Variable property",
       "scope": "variable.other.property.js",
       "settings": {
-        "foreground": "#527da8"
+        "foreground": "#b75874"
       }
     },
     {
