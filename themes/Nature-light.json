@@ -246,8 +246,8 @@
       }
     },
     {
-      "name": "Foreground similar color",
-      "scope": "text.html.php.blade,text.html.php.laravel-blade,text.html.vue-html,meta.directive.vue",
+      "name": "Default Foreground",
+      "scope": "source.env,text.html,text.html.basic,text.html.php.blade,text.html.php.laravel-blade,text.html.vue-html,meta.directive.vue",
       "settings": {
         "foreground": "#282800"
       }
