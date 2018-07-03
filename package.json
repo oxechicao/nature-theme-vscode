@@ -31,6 +31,11 @@
 				"path": "./themes/Nature-light.json"
 			},
 			{
+				"label": "Nature Sky Light",
+				"uiTheme": "vs",
+				"path": "./themes/Nature-sky-light.json"
+			},
+			{
 				"label": "Nature Rainbow Dark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/NatureRainbow-dark.json"

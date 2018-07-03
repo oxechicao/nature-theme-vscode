@@ -7,12 +7,14 @@
     "activityBar.border": "#0d211a",
     "editorGroup.border": "#0d211a",
     "statusBar.border": "#0d211a",
+    "peekView.border": "#0d211a",
     "contrastBorder": "#0d211a",
     "sideBar.border": "#0d211a",
     "panel.border": "#0d211a",
     "input.border": "#0d211a",
     "focusBorder": "#0d211a",
     "tab.border": "#0d211a",
+
     
     "activityBar.background": "#0b0c0c",
     "statusBar.background": "#0b0c0c",
@@ -82,22 +84,27 @@
 
     "editorError.foreground": "#e05252",
     "editorMarkerNavigation.background": "#8cf28c55",
-    "editorRuler.foreground": "#fefefe33",
     "editor.lineHighlightBackground": "#2d2b2255",
     "editorCursor.foreground": "#e0ffa8",
-    "editorWhitespace.foreground": "#fefefe33",
+    
+    "editorRuler.foreground": "#fefefe33",
+    "editorWhitespace.foreground": "#fefefe22",
     "editorIndentGuide.background": "#fefefe33",
-    "editorLineNumber.foreground": "#fefefe33",
+    "editorLineNumber.foreground": "#fefefe55",
 
-    "editor.selectionBackground": "#d8d6a433",
-    "editor.selectionHighlightBackground": "#d8d6a433",
+    "editor.selectionBackground": "#baffd122",
+    "editor.selectionHighlightBackground": "#aafff222",
+    "editor.selectionHighlightBorder": "#aafff222",
+    "editor.inactiveSelectionBackground": "#ffaaaa44",
 
-    "editor.findMatchBackground": "#d6d65c22",
-    "editor.findMatchHighlightBackground": "#3399ff22",
-    "editor.findRangeHighlightBackground": "#e0525222",
+    "editor.findMatchBorder": "#ffbf0033",
+    "editor.findMatchBackground": "#3e3b4222",
+    "editor.findMatchHighlightBackground": "#3e3b4222",
+    "editor.findRangeHighlightBackground": "#3e3b4222",
 
     "editor.hoverHighlightBackground": "#3399ff22",
 
+    "editor.wordHighlightBorder": "#d88888",
     "editor.wordHighlightBackground": "#5cd69922",
     "editor.wordHighlightStrongBackground": "#e0525222",
 
@@ -136,6 +143,7 @@
     "scrollbarSlider.background": "#44559955",
     "scrollbarSlider.activeBackground": "#99554455",
     "scrollbarSlider.hoverBackground": "#22997755",
+
 
     "panelTitle.activeBorder": "#444",
     "panelTitle.activeForeground": "#fefefe",
